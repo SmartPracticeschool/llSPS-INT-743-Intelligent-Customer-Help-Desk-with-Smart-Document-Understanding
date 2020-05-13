@@ -1,0 +1,29 @@
+Project Scope Document
+1.	Project Summary
+Today’s customers may want touse self-service to answer common questions and learn best practices. They may need to connect directly with an operator or a human assistant or may even require field service. The aim of this project is when a question falls outside of the scope of the pre-determined question set, the option is typically to tell the customer the question isn’t valid or offer to speak to a real person.In this project, there will be another option. If the customer question is about the operation of a device, the application shall pass the question onto Watson Discovery Service, which has been pre-loaded with the device’s owners manual. So now, instead of “Would you like to speak to a customer representative?” we can return relevant sections of the owners manual to help solve our customers’ problems
+2.	Project Requirements
+•	If the query is about the operation of the device, relevant section of the device should be provided as the response instead of the usual “Would you like to speak to a customer representative?”
+•	To engage their customers in new and varied ways, provide an intelligent customer service to answer simple queries of the customers.
+•	The project shall use the Smart Document Understanding feature of Watson Discovery to train it on what text in the owner’s manual is important and what is not. 
+
+3.	Functional Requirements
+•	The customers must have easy access to the Intelligent Customer Help Desk.
+•	Customers must be able to post multiple queries.
+
+4.	Technical Requirements 
+•	Python is used as the primary language in the development of the Intelligent Customer Help Desk.
+•	The IBM cloud platform is used which combines platform as a service (PaaS) with infrastructure as a service (IaaS) to provide an integrated experience.
+
+5.	Software Requirements
+•	Python
+•	IBM Cloud
+•	IBM Watson
+
+6.	Project Deliverables 
+Chat bot able to handle different queries and refer to device manual if something related to device is asked ,that is unknown to our bot.
+7.	Project Team
+None
+8.	Project Schedule
+5th may 2020 to 4th june 2020
+
+
